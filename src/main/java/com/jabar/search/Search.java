@@ -109,7 +109,8 @@ public class Search implements Runnable {
                 try {
                     BufferedReader bf = new BufferedReader(new FileReader(file));
                     StringBuilder sb = new StringBuilder();
-                    while (bf.ready() && (sb.append(bf.readLine())).length() > 0) {
+                    while (bf.ready()) {
+                        sb.append(bf.readLine());
                         if (indexOfIgnoreCase(sb, searchWord) != -1) {
                             bf.close();
                             result = true;
