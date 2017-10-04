@@ -25,7 +25,6 @@ public class MainWindow {
         this.window.add(mainPanel.getMainMenu(), BorderLayout.CENTER);
         this.window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.window.pack();
-        //this.window.setSize(800, 600);
         this.window.setExtendedState(Frame.MAXIMIZED_BOTH);
         this.window.setVisible(true);
     }
