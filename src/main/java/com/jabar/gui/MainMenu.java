@@ -45,7 +45,6 @@ public class MainMenu {
         menuBar.add(tabs);
         tabbedPane = new JTabbedPane();
         tabbedPane.addTab("Tab " + index++, new Menu().getMenu());
-        //JPanel menu = new Menu().getMenu();
         mainMenu.add(menuBar, BorderLayout.NORTH);
         mainMenu.add(tabbedPane, BorderLayout.CENTER);
     }
