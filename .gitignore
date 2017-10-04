@@ -1,0 +1,13 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+build
+.idea
+*.iml
+gradlew
+*.bat
